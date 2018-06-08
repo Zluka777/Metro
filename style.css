@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 14px Arial;
+	padding: 10px;
+}
+
+form {
+	width: 40%;
+	max-width: 300px;
+	min-width: 150px;
+	margin: auto;
+	border: 1px solid;
+	text-align: center;
+	border-color: #aaa;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+#path-form > div{
+	position: relative;
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	width: 90%;
+	display: block;
+}
+
+input[type=text]{
+	font: inherit;
+	padding: 4px;
+	background: #eee;
+	border: 1px solid ;
+	border-color: #999;
+	width: -webkit-fill-available;
+	display: block;
+	position: relative;
+	color: #33a;
+}
+
+input[type=submit]{
+	-webkit-appearance: none;
+	background-color: DodgerBlue;
+	border: 1px solid transparent;
+	border-color: DodgerBlue;
+	color:#fff;
+	width: 100%;
+	padding: 4px;
+	height: 30px;
+	font:inherit;
+	display: block;
+}
+
+#autocomplete-div{
+	position: absolute;
+	overflow-y: auto;
+	z-index: 99;
+	top: 30px;
+	left: 4px;
+	background: #e1e0ff;
+	width: 96%;
+	color: #33a;
+	max-height: 270px;
+}
+
+#autocomplete-div div:hover{
+	background-color: #4b38ec;
+	color: #fff;
+}
+
+#autocomplete-active{
+	background-color: #4b38ec;
+	color: #fff;
+}
+
+#autocomplete-div div{
+	width: 100%;
+	margin-top: auto;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+	text-align: left;
+}
