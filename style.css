@@ -12,7 +12,7 @@ body {
 form {
 	width: 40%;
 	max-width: 300px;
-	min-width: 150px;
+	min-width: 100px;
 	margin: auto;
 	border: 1px solid;
 	text-align: center;
