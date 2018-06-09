@@ -3,7 +3,10 @@
  "short_name": "Metro",
  "lang": "ru-RU",
  "start_url": "/",
- "display": "fullscreen",
+ "display": "standalone",
+ "orientation": "natural",
+ "background_color": "#fff",
+ "theme_color": "#fff",
  "icons": [
   {
    "src": "\/image/android-icon-36x36.png",
