@@ -43,7 +43,7 @@ input[type=text]{
 	color: #33a;
 }
 
-input[type=button]{
+button{
 	background-color: DodgerBlue;
 	border: 1px solid transparent;
 	border-color: DodgerBlue;
