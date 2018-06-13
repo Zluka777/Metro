@@ -90,3 +90,8 @@ function showPath(str){
 	});
 	console.log(str);
 }
+
+
+function findPath(){
+	console.log("Click");
+}

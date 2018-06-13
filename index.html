@@ -25,7 +25,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-<script>
+<script>s
 if ('serviceWorker' in navigator) {
 	window.addEventListener('load', function() {
 	navigator.serviceWorker.register('/sw.js').then(function(registration) {
@@ -41,9 +41,8 @@ if ('serviceWorker' in navigator) {
 		<script src="s.js"></script>
 		<script src="jsonn.js"></script>
 		<script src="autocomplete.js"></script>
-
 		<div>
-			<form id="path-form">
+			<div id="path-form">
 			<div class="Start-Point-div" >
 				<input type="text" id="Start-Point" name="StartPoint" placeholder="Точка А">
 			</div>
@@ -51,9 +50,9 @@ if ('serviceWorker' in navigator) {
 				<input type="text" id="End-Point" name="EndPoint" placeholder="Точка Б">
 			</div>
 			<div>
-				<button id="FindPath"> Найти путь </button>
+				<button>Найти Путь</button>
 			</div>
-			</form>
+			</div>
 		</div>
 	</body>
 </html>
