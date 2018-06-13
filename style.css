@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	-webkit-appearance: none;
 }
 
 body {
@@ -43,7 +44,6 @@ input[type=text]{
 }
 
 input[type=submit]{
-	-webkit-appearance: none;
 	background-color: DodgerBlue;
 	border: 1px solid transparent;
 	border-color: DodgerBlue;
